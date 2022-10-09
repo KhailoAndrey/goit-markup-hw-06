@@ -317,8 +317,8 @@ h1 {
   box-shadow: none;
 }
 
-.icon-close-modal {
-}
+/* .icon-close-modal {
+} */
 
 .modal {
   position: absolute;
@@ -789,6 +789,7 @@ h2 {
 .input-email:hover,
 .input-email:focus-visible {
   border: 1px solid var(--blue-text);
+  outline: none;
 }
 
 .send-btn {
@@ -857,6 +858,7 @@ h2 {
 
 .feedback-area:hover,
 .feedback-area:focus {
+  outline: none;
   border: 1px solid var(--blue-text);
 }
 
@@ -886,6 +888,7 @@ h2 {
 
 .input-form:hover,
 .input-form:focus {
+  outline: none;
   border-color: var(--blue-text);
 }
 
@@ -934,7 +937,7 @@ h2 {
 
 .license-checkbox:checked + .icon-license-checkbox {
   background-color: var(--blue-text);
-border-color: var(--blue-text);
+  border-color: var(--blue-text);
 }
 
 .license-checkbox {
